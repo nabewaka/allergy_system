@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* カラー */
+  --color-white: #FFFFFF;
+  --color-black: #1A1A1A;
+  --color-black-soft: #555555;
+
+  /* メイン：黄緑 */
+  --color-green: #8BC34A;
+  --color-green-dark: #689F38;
+  --color-green-light: #DCEDC8;
+  --color-green-mid: #9CCC65;
+
+  /* サブ：アクセント */
+  --color-accent: #F9C846;
+  --color-accent-dark: #D9A81E;
+  --color-accent-light: #FFF3C4;
+
+  /* 背景 */
+  --color-bg: #F4F9E8;
+
+  /* 状態色：アレルギー判定用*/
+  --color-status-red: #E53935;
+  --color-status-yellow: #FBC02D;
+  --color-status-ok: #8BC34A;
+
+  /* フォント */
+  --font-serif: "Noto Serif JP", "Georgia", serif;
+  --font-sans: "Noto Sans JP", sans-serif;
+
+  /* フォントサイズ */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* 角丸 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    background-image:
+      linear-gradient(#FFFFFF 1px, transparent 1px),
+      linear-gradient(90deg, #FFFFFF 1px, transparent 1px);
+    background-size: 60px 60px;
+    font-family: var(--font-serif);
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+  }
+
+  p {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--color-black-soft);
+  }
+}
+
+@layer utilities {
+  .text-center-force {
+    text-align: center !important;
+  }
+}
