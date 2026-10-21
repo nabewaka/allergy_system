@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///Users/manabe/GitHub/allergy_system/frontend/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///Users/manabe/GitHub/allergy_system/frontend/app/stocks/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Link from \"next/link\";\nexport default function Home() {\n  return (\n    <article>\n      <div className=\"bg-white p-8 rounded-lg prose prose-lg max-w-none mb-3\"\n        style={{ borderRadius: \"var(--radius-lg)\" }}\n      >\n      <p>ここは在庫管理画面</p>\n      </div>\n\n    </article>\n  );\n}"],"names":["Home","className","style","borderRadius"],"mappings":";;;;;;AAEe,SAASA;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAIC,WAAU;YACbC,OAAO;gBAAEC,cAAc;YAAmB;sBAE5C,cAAA,8OAAC;0BAAE;;;;;;;;;;;;;;;;AAKT"}}]
+}
